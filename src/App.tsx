@@ -6,8 +6,8 @@ const App: FC = () => {
   const [showModal, setShowModal] = useState(false);
   const [alerts, setAlerts] = useState([
     { type: 'warning', message: 'This is a warning type alert' },
-    { type: 'success', message: 'This is a success type alert' },
     { type: 'primary', message: 'This is a primary type alert' },
+    { type: 'success', message: 'This is a success type alert' },
     { type: 'danger', message: 'This is a danger type alert' },
   ]);
 

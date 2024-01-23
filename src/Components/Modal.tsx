@@ -16,11 +16,11 @@ const Modal: FC<ModalProps> = ({ show, onClose, title, children }) => {
         <div className={`modal fade ${show ? 'show' : ''}`} style={modalStyle}>
             <div className="modal-dialog">
                 <div className="modal-content">
-                    <div className="modal-header">
+                    <div className="modal-header bg-primary bg-opacity-75">
                         <h5 className="modal-title">{title}</h5>
-                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Закрыть" onClick={onClose}></button>
+                        <button type="button" className="btn-close " data-bs-dismiss="modal" aria-label="Закрыть" onClick={onClose}></button>
                     </div>
-                    <div className="modal-body">{children}</div>
+                    <div className="modal-body bg-primary bg-opacity-25">{children}</div>
                 </div>
             </div>
         </div>

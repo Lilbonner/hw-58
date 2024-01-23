@@ -1,7 +1,7 @@
 import { FC, ReactNode } from 'react';
 
 interface AlertProps {
-    type: 'primary' | 'success' | 'danger' | 'warning';
+  type: 'primary' | 'success' | 'warning' | 'danger' ;
     onDismiss?: () => void;
     children?: ReactNode;
 }
